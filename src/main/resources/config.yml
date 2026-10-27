@@ -1,0 +1,29 @@
+# The language used for a player when their client language has no
+# translation below, and always used for console/command blocks.
+default-language: "en"
+
+# Add as many languages as you like. Each top-level key under "messages"
+# (en, ru, de, ...) must match a player's client language code to be
+# picked automatically — see Options > Language in the player's client.
+#
+# "helpme" is a LIST: every "-" entry becomes its own chat line, e.g.
+#   helpme:
+#     - "Line 1 Text"
+#     - "Line 2 Text"
+# The other keys (reload, no-permission, player-only) are single lines.
+# "&" color codes work everywhere (e.g. &a = green, &c = red, &l = bold).
+messages:
+  en:
+    helpme:
+      - "&aNeed help? Contact a staff member!"
+      - "&eOr check &b/wiki&e for guides."
+    reload: "&aHelpMe configuration reloaded."
+    no-permission: "&cYou don't have permission to do that."
+    player-only: "&cThis command can only be used by a player."
+  ru:
+    helpme:
+      - "&aНужна помощь? Обратитесь к администрации!"
+      - "&eИли посмотрите &b/wiki&e для гайдов."
+    reload: "&aКонфигурация HelpMe перезагружена."
+    no-permission: "&cУ вас нет прав для этого."
+    player-only: "&cЭту команду может использовать только игрок."

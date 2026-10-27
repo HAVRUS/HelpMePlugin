@@ -1,0 +1,16 @@
+name: HelpMe
+version: '1.0.0'
+main: com.example.helpme.HelpMePlugin
+api-version: '1.21'
+author: YourName
+description: Sends a private, translated message when a player runs /helpme
+
+commands:
+  helpme:
+    description: Shows the configured help message, or reloads the config with 'reload'.
+    usage: /helpme [reload]
+
+permissions:
+  helpme.reload:
+    description: Allows reloading the HelpMe plugin configuration.
+    default: op
