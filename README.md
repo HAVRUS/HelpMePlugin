@@ -240,4 +240,4 @@ New translations are especially welcome: add a language block to `config.yml` an
 
 ## License
 
-Released under the [MIT License](LICENSE).
+Released under the GPL-3.0 license.
